@@ -1,0 +1,21 @@
+{
+  "name": "randomsentencepassword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.1.0",
+    "moment": "^2.29.3"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  }
+}

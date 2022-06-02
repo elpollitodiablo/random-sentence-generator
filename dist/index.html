@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Sentence Password App</title>
+    <style>
+      html,
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      #sentence {
+        font-family: "Courier New", Courier, monospace;
+        padding: 1rem;
+        background-color: #eee;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.26eb07cf.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>
+        Connect with
+        <input type="radio" name="connector" value=" " checked="checked" />
+        spaces <input type="radio" name="connector" value="." /> dots
+        <input type="radio" name="connector" value="-" /> dash
+      </p>
+      <p>
+        <button id="generate">Generate</button>
+        <button id="copy">Copy</button><span id="copyStatus"></span>
+      </p>
+    </div>
+    <div id="sentence"></div>
+    
+  </body>
+</html>
