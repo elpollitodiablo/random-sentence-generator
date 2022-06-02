@@ -42,7 +42,6 @@ const getSentence = () => {
   let connector = document.querySelector<HTMLInputElement>(
     "input[name='connector']:checked"
   ).value;
-  console.log(`getSentence ~ connector`, connector);
 
   const appDiv: HTMLElement = document.querySelector("#sentence");
   const dateRoll = coin();
